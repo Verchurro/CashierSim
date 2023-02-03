@@ -16,7 +16,11 @@ C:/Users/berry/OneDrive/Documents/GitHub/CashierSim/CashierSim
 Logs/AssetImportWorker1.log
 -srvPort
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 50904
+=======
+64696
+>>>>>>> Stashed changes
 =======
 64696
 >>>>>>> Stashed changes
@@ -52,7 +56,11 @@ C:/Users/berry/OneDrive/Documents/GitHub/CashierSim/CashierSim
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 73.28 ms, found 3 plugins.
+=======
+Refreshing native plugins compatible for Editor in 109.52 ms, found 3 plugins.
+>>>>>>> Stashed changes
 =======
 Refreshing native plugins compatible for Editor in 109.52 ms, found 3 plugins.
 >>>>>>> Stashed changes
@@ -72,7 +80,11 @@ Mono path[0] = 'C:/Users/berry/OneDrive/Documents/Unity/2021.3.9f1/Editor/Data/M
 Mono path[1] = 'C:/Users/berry/OneDrive/Documents/Unity/2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Users/berry/OneDrive/Documents/Unity/2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56692
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56592
+>>>>>>> Stashed changes
 =======
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56592
 >>>>>>> Stashed changes
@@ -80,6 +92,7 @@ Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Users/berry/OneDrive/Documents/Unity/2021.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Users/berry/OneDrive/Documents/Unity/2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 Registered in 0.013579 seconds.
 Native extension for WindowsStandalone target not found
@@ -103,11 +116,24 @@ Domain Reload Profiling:
 	ReloadAssembly (1024ms)
 		BeginReloadAssembly (145ms)
 >>>>>>> Stashed changes
+=======
+Registered in 0.018973 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 108.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.024 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1024ms)
+		BeginReloadAssembly (145ms)
+>>>>>>> Stashed changes
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 		EndReloadAssembly (447ms)
 			LoadAssemblies (87ms)
@@ -134,10 +160,25 @@ Domain Reload Profiling:
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (0ms)
+=======
+		EndReloadAssembly (692ms)
+			LoadAssemblies (139ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (151ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (415ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+>>>>>>> Stashed changes
 				RefreshPlugins (109ms)
 				BeforeProcessingInitializeOnLoad (2ms)
 				ProcessInitializeOnLoadAttributes (212ms)
 				ProcessInitializeOnLoadMethodAttributes (76ms)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -146,7 +187,11 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Registered in 0.009269 seconds.
+=======
+Registered in 0.016920 seconds.
+>>>>>>> Stashed changes
 =======
 Registered in 0.016920 seconds.
 >>>>>>> Stashed changes
@@ -156,6 +201,7 @@ Symbol file LoadedFromMemory doesn't match image C:\Users\berry\OneDrive\Documen
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
@@ -164,6 +210,8 @@ Domain Reload Profiling:
 	ReloadAssembly (1046ms)
 		BeginReloadAssembly (117ms)
 =======
+=======
+>>>>>>> Stashed changes
 Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
@@ -171,11 +219,15 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (1819ms)
 		BeginReloadAssembly (196ms)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (10ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 			CreateAndSetChildDomain (18ms)
 		EndReloadAssembly (809ms)
@@ -206,10 +258,27 @@ Domain Reload Profiling:
 				InitializePlatformSupportModulesInManaged (19ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
+=======
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (1409ms)
+			LoadAssemblies (157ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (425ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (114ms)
+			SetupLoadedEditorAssemblies (650ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+>>>>>>> Stashed changes
 				BeforeProcessingInitializeOnLoad (158ms)
 				ProcessInitializeOnLoadAttributes (401ms)
 				ProcessInitializeOnLoadMethodAttributes (46ms)
 				AfterProcessingInitializeOnLoad (24ms)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -218,8 +287,13 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+=======
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+>>>>>>> Stashed changes
 =======
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
 Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
@@ -229,7 +303,11 @@ Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 27 unused Assets / (111.5 KB). Loaded Objects now: 3855.
 Memory consumption went from 118.6 MB to 118.5 MB.
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Total: 3.504700 ms (FindLiveObjects: 0.263300 ms CreateObjectMapping: 0.239500 ms MarkObjects: 2.904500 ms  DeleteObjects: 0.096400 ms)
+=======
+Total: 5.005500 ms (FindLiveObjects: 0.453400 ms CreateObjectMapping: 0.577900 ms MarkObjects: 3.815200 ms  DeleteObjects: 0.157000 ms)
+>>>>>>> Stashed changes
 =======
 Total: 5.005500 ms (FindLiveObjects: 0.453400 ms CreateObjectMapping: 0.577900 ms MarkObjects: 3.815200 ms  DeleteObjects: 0.157000 ms)
 >>>>>>> Stashed changes
@@ -247,6 +325,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Received Import Request.
   Time since last request: 1217732.276371 seconds.
   path: Assets/Core/Prefab/Cube.prefab
@@ -257,6 +336,8 @@ Received Prepare
 Registering precompiled user dll's ...
 Registered in 0.008990 seconds.
 =======
+=======
+>>>>>>> Stashed changes
 Received Prepare
 Refreshing native plugins compatible for Editor in 7.01 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -280,12 +361,16 @@ AssetImportParameters requested are different than current active one (requested
 Received Prepare
 Registering precompiled user dll's ...
 Registered in 0.014033 seconds.
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\berry\OneDrive\Documents\GitHub\CashierSim\CashierSim\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\berry\OneDrive\Documents\GitHub\CashierSim\CashierSim\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -325,6 +410,8 @@ Unloading 20 unused Assets / (78.6 KB). Loaded Objects now: 3867.
 Memory consumption went from 121.6 MB to 121.5 MB.
 Total: 2.988200 ms (FindLiveObjects: 0.263700 ms CreateObjectMapping: 0.180600 ms MarkObjects: 2.463600 ms  DeleteObjects: 0.079100 ms)
 =======
+=======
+>>>>>>> Stashed changes
 Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
@@ -536,6 +623,9 @@ Unloading 3379 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 20 unused Assets / (78.6 KB). Loaded Objects now: 3867.
 Memory consumption went from 117.3 MB to 117.2 MB.
 Total: 5.134600 ms (FindLiveObjects: 0.641400 ms CreateObjectMapping: 0.524600 ms MarkObjects: 3.809600 ms  DeleteObjects: 0.156900 ms)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -553,7 +643,11 @@ AssetImportParameters requested are different than current active one (requested
 Received Prepare
 Registering precompiled user dll's ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Registered in 0.009249 seconds.
+=======
+Registered in 0.012709 seconds.
+>>>>>>> Stashed changes
 =======
 Registered in 0.012709 seconds.
 >>>>>>> Stashed changes
@@ -562,6 +656,7 @@ Symbol file LoadedFromMemory doesn't match image C:\Users\berry\OneDrive\Documen
 Symbol file LoadedFromMemory doesn't match image C:\Users\berry\OneDrive\Documents\GitHub\CashierSim\CashierSim\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -601,6 +696,8 @@ Unloading 20 unused Assets / (78.6 KB). Loaded Objects now: 3870.
 Memory consumption went from 121.6 MB to 121.5 MB.
 Total: 3.432300 ms (FindLiveObjects: 0.318300 ms CreateObjectMapping: 0.243700 ms MarkObjects: 2.790200 ms  DeleteObjects: 0.079300 ms)
 =======
+=======
+>>>>>>> Stashed changes
 Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
@@ -638,6 +735,9 @@ Unloading 3379 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 20 unused Assets / (78.7 KB). Loaded Objects now: 3870.
 Memory consumption went from 117.3 MB to 117.2 MB.
 Total: 5.621900 ms (FindLiveObjects: 0.313600 ms CreateObjectMapping: 0.218000 ms MarkObjects: 4.966200 ms  DeleteObjects: 0.123000 ms)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -655,7 +755,11 @@ AssetImportParameters requested are different than current active one (requested
 Received Prepare
 Registering precompiled user dll's ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Registered in 0.008452 seconds.
+=======
+Registered in 0.013065 seconds.
+>>>>>>> Stashed changes
 =======
 Registered in 0.013065 seconds.
 >>>>>>> Stashed changes
@@ -664,6 +768,7 @@ Symbol file LoadedFromMemory doesn't match image C:\Users\berry\OneDrive\Documen
 Symbol file LoadedFromMemory doesn't match image C:\Users\berry\OneDrive\Documents\GitHub\CashierSim\CashierSim\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -703,6 +808,8 @@ Unloading 20 unused Assets / (78.6 KB). Loaded Objects now: 3873.
 Memory consumption went from 121.6 MB to 121.6 MB.
 Total: 3.015900 ms (FindLiveObjects: 0.403300 ms CreateObjectMapping: 0.202000 ms MarkObjects: 2.283300 ms  DeleteObjects: 0.125900 ms)
 =======
+=======
+>>>>>>> Stashed changes
 Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
@@ -740,6 +847,9 @@ Unloading 3379 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 20 unused Assets / (78.6 KB). Loaded Objects now: 3873.
 Memory consumption went from 117.3 MB to 117.2 MB.
 Total: 4.218200 ms (FindLiveObjects: 0.328600 ms CreateObjectMapping: 0.221700 ms MarkObjects: 3.569100 ms  DeleteObjects: 0.097600 ms)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -757,7 +867,11 @@ AssetImportParameters requested are different than current active one (requested
 Received Prepare
 Registering precompiled user dll's ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Registered in 0.009595 seconds.
+=======
+Registered in 0.012254 seconds.
+>>>>>>> Stashed changes
 =======
 Registered in 0.012254 seconds.
 >>>>>>> Stashed changes
@@ -766,6 +880,7 @@ Symbol file LoadedFromMemory doesn't match image C:\Users\berry\OneDrive\Documen
 Symbol file LoadedFromMemory doesn't match image C:\Users\berry\OneDrive\Documents\GitHub\CashierSim\CashierSim\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -805,6 +920,8 @@ Unloading 20 unused Assets / (78.6 KB). Loaded Objects now: 3876.
 Memory consumption went from 121.6 MB to 121.6 MB.
 Total: 3.551300 ms (FindLiveObjects: 0.250500 ms CreateObjectMapping: 0.161300 ms MarkObjects: 3.031900 ms  DeleteObjects: 0.106700 ms)
 =======
+=======
+>>>>>>> Stashed changes
 Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
@@ -842,6 +959,9 @@ Unloading 3379 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 20 unused Assets / (78.6 KB). Loaded Objects now: 3876.
 Memory consumption went from 117.3 MB to 117.2 MB.
 Total: 12.830300 ms (FindLiveObjects: 1.099800 ms CreateObjectMapping: 1.067700 ms MarkObjects: 10.288100 ms  DeleteObjects: 0.370300 ms)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -859,7 +979,11 @@ AssetImportParameters requested are different than current active one (requested
 Received Prepare
 Registering precompiled user dll's ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Registered in 0.008840 seconds.
+=======
+Registered in 0.016417 seconds.
+>>>>>>> Stashed changes
 =======
 Registered in 0.016417 seconds.
 >>>>>>> Stashed changes
@@ -868,6 +992,7 @@ Symbol file LoadedFromMemory doesn't match image C:\Users\berry\OneDrive\Documen
 Symbol file LoadedFromMemory doesn't match image C:\Users\berry\OneDrive\Documents\GitHub\CashierSim\CashierSim\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -907,6 +1032,8 @@ Unloading 20 unused Assets / (78.6 KB). Loaded Objects now: 3879.
 Memory consumption went from 121.6 MB to 121.6 MB.
 Total: 3.221800 ms (FindLiveObjects: 0.316700 ms CreateObjectMapping: 0.227900 ms MarkObjects: 2.579400 ms  DeleteObjects: 0.096700 ms)
 =======
+=======
+>>>>>>> Stashed changes
 Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
@@ -944,6 +1071,9 @@ Unloading 3379 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 20 unused Assets / (78.6 KB). Loaded Objects now: 3879.
 Memory consumption went from 117.3 MB to 117.2 MB.
 Total: 4.237300 ms (FindLiveObjects: 0.352300 ms CreateObjectMapping: 0.237300 ms MarkObjects: 3.541900 ms  DeleteObjects: 0.104700 ms)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -961,7 +1091,11 @@ AssetImportParameters requested are different than current active one (requested
 Received Prepare
 Registering precompiled user dll's ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Registered in 0.009712 seconds.
+=======
+Registered in 0.016012 seconds.
+>>>>>>> Stashed changes
 =======
 Registered in 0.016012 seconds.
 >>>>>>> Stashed changes
@@ -973,6 +1107,7 @@ Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 - Completed reload, in  1.114 seconds
 Domain Reload Profiling:
@@ -1009,6 +1144,8 @@ Unloading 20 unused Assets / (78.7 KB). Loaded Objects now: 3882.
 Memory consumption went from 121.7 MB to 121.6 MB.
 Total: 3.406500 ms (FindLiveObjects: 0.278500 ms CreateObjectMapping: 0.191300 ms MarkObjects: 2.840300 ms  DeleteObjects: 0.095100 ms)
 =======
+=======
+>>>>>>> Stashed changes
 - Completed reload, in  3.043 seconds
 Domain Reload Profiling:
 	ReloadAssembly (3045ms)
@@ -1043,6 +1180,9 @@ Unloading 3379 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 20 unused Assets / (78.7 KB). Loaded Objects now: 3882.
 Memory consumption went from 117.3 MB to 117.2 MB.
 Total: 15.522100 ms (FindLiveObjects: 0.734200 ms CreateObjectMapping: 0.562000 ms MarkObjects: 13.880100 ms  DeleteObjects: 0.341600 ms)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -1060,7 +1200,11 @@ AssetImportParameters requested are different than current active one (requested
 Received Prepare
 Registering precompiled user dll's ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Registered in 0.010739 seconds.
+=======
+Registered in 0.015799 seconds.
+>>>>>>> Stashed changes
 =======
 Registered in 0.015799 seconds.
 >>>>>>> Stashed changes
@@ -1069,6 +1213,7 @@ Symbol file LoadedFromMemory doesn't match image C:\Users\berry\OneDrive\Documen
 Symbol file LoadedFromMemory doesn't match image C:\Users\berry\OneDrive\Documents\GitHub\CashierSim\CashierSim\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -1090,6 +1235,8 @@ Domain Reload Profiling:
 			RebuildScriptCaches (49ms)
 			SetupLoadedEditorAssemblies (380ms)
 =======
+=======
+>>>>>>> Stashed changes
 Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
@@ -1573,14 +1720,22 @@ Domain Reload Profiling:
 			ReleaseScriptCaches (2ms)
 			RebuildScriptCaches (53ms)
 			SetupLoadedEditorAssemblies (400ms)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (17ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 				BeforeProcessingInitializeOnLoad (81ms)
 				ProcessInitializeOnLoadAttributes (236ms)
+=======
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (252ms)
+>>>>>>> Stashed changes
 =======
 				BeforeProcessingInitializeOnLoad (85ms)
 				ProcessInitializeOnLoadAttributes (252ms)
@@ -1592,6 +1747,7 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 2.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3379 Unused Serialized files (Serialized files now loaded: 0)
@@ -1599,6 +1755,8 @@ Unloading 20 unused Assets / (78.7 KB). Loaded Objects now: 3885.
 Memory consumption went from 121.7 MB to 121.6 MB.
 Total: 3.180500 ms (FindLiveObjects: 0.247900 ms CreateObjectMapping: 0.161400 ms MarkObjects: 2.683700 ms  DeleteObjects: 0.086300 ms)
 =======
+=======
+>>>>>>> Stashed changes
 Refreshing native plugins compatible for Editor in 2.72 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3379 Unused Serialized files (Serialized files now loaded: 0)
@@ -1663,6 +1821,9 @@ Unloading 3379 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 20 unused Assets / (78.8 KB). Loaded Objects now: 3912.
 Memory consumption went from 117.4 MB to 117.3 MB.
 Total: 4.193200 ms (FindLiveObjects: 0.331800 ms CreateObjectMapping: 0.352700 ms MarkObjects: 3.395100 ms  DeleteObjects: 0.112600 ms)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
