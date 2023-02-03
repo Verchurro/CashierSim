@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Spawner : MonoBehaviour
 {
-    public GameObject itemsToSpawn;
+    public GameObject[] itemsToSpawn;
     public float respawnTime = 1.0f;
     private Vector2 screenbounds;
     public bool isRandomized;
@@ -16,10 +16,10 @@ public class Spawner : MonoBehaviour
     }
     private void spawnItems()
     {
-      
+      int randomIndex= Random.Range(0, itemsToSpawn.Length);
 
-        GameObject a = Instantiate(itemsToSpawn) as GameObject;
-        a.transform.position = new Vector3(screenbounds.x * 0, 5, 0);
+        Instantiate(itemsToSpawn[randomIndex]);
+       Vector3 spawnPosition = new Vector3(screenbounds.x * 0, 5, 0);
     }
 
     IEnumerator itemWave()
