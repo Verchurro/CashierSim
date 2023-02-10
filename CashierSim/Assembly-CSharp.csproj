@@ -60,6 +60,7 @@
     <Compile Include="Assets\Core\Scripts\Items.cs" />
     <Compile Include="Assets\Core\Scripts\Spawner.cs" />
     <Compile Include="Assets\Core\Scripts\DestroyZone.cs" />
+    <Compile Include="Assets\Core\Scripts\ClientNavMesh.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
