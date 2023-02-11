@@ -357,6 +357,7 @@
 "Assets/Core/Scripts/Items.cs"
 "Assets/Core/Scripts/Menu.cs"
 "Assets/Core/Scripts/Spawner.cs"
+"Assets/Core/Scripts/Waypoints.cs"
 -langversion:9.0
 
 /deterministic

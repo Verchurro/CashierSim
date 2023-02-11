@@ -6,7 +6,7 @@ using UnityEngine.AI;
 public class ClientNavMesh : MonoBehaviour
 {
     [SerializeField] private Transform movePositionTransform;
-    private NavMeshAgent navMeshAgent;
+    [SerializeField]private NavMeshAgent navMeshAgent;
 
     private void Awake()
     {

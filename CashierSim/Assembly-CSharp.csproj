@@ -57,10 +57,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Core\Scripts\Menu.cs" />
+    <Compile Include="Assets\Core\Scripts\ClientNavMesh.cs" />
     <Compile Include="Assets\Core\Scripts\Items.cs" />
     <Compile Include="Assets\Core\Scripts\Spawner.cs" />
     <Compile Include="Assets\Core\Scripts\DestroyZone.cs" />
-    <Compile Include="Assets\Core\Scripts\ClientNavMesh.cs" />
+    <Compile Include="Assets\Core\Scripts\Waypoints.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
