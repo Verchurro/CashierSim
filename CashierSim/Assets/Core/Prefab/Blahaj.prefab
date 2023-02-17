@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4879635118920107943}
   - component: {fileID: 8365482336179849218}
   - component: {fileID: 6051956731429190856}
+  - component: {fileID: 6370969067721339083}
   m_Layer: 0
   m_Name: Blahaj
   m_TagString: Untagged
@@ -83,3 +84,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6370969067721339083
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5259116832114171165}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.7686989, y: 0.9500496, z: 0.9150782}
+  m_Center: {x: -0.31691492, y: -0.025441043, z: 0.49671924}

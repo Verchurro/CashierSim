@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2667504363421118018}
   - component: {fileID: 1345233237890965991}
   - component: {fileID: 3841515271661212973}
+  - component: {fileID: 2024692657023426844}
   m_Layer: 0
   m_Name: pomme 1
   m_TagString: Untagged
@@ -83,3 +84,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!135 &2024692657023426844
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3336940521560306936}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 7.8023357
+  m_Center: {x: 0, y: 0.11653249, z: 0.16954266}

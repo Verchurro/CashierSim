@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5483679848058311554}
   - component: {fileID: 8914359043489061927}
   - component: {fileID: 6652622695557245165}
+  - component: {fileID: 8522237406809141342}
   m_Layer: 0
   m_Name: MSH_Sex_Toy
   m_TagString: Untagged
@@ -84,3 +85,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8522237406809141342
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5139206855474252088}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.06491165, y: 0.03297994, z: 0.18767564}
+  m_Center: {x: -0.015124553, y: 0.00000052511643, z: -0.07315991}

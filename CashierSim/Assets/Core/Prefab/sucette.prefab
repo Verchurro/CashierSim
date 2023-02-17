@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 2435089089044480309}
   - component: {fileID: 1613686191828373136}
   - component: {fileID: 3566851194132560474}
+  - component: {fileID: 4442528939079509256}
+  - component: {fileID: 7339268220155286717}
   m_Layer: 0
   m_Name: sucette
   m_TagString: Untagged
@@ -83,3 +85,30 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!135 &4442528939079509256
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3062725044437080975}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 12.671317
+  m_Center: {x: 0.26734394, y: -0.16698925, z: 57.92813}
+--- !u!136 &7339268220155286717
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3062725044437080975}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2.639547
+  m_Height: 53.208435
+  m_Direction: 2
+  m_Center: {x: -0.32546043, y: 0.00018893527, z: 25.8479}

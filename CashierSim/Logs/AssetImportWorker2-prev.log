@@ -15,7 +15,7 @@ D:/Github/CashierSim/CashierSim
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-54840
+62963
 Successfully changed project path to: D:/Github/CashierSim/CashierSim
 D:/Github/CashierSim/CashierSim
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ D:/Github/CashierSim/CashierSim
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 93.06 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 87.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.9f1 (ad3870b89536)
 [Subsystems] Discovering subsystems at path D:/Unity/2021.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -63,37 +63,37 @@ Initialize mono
 Mono path[0] = 'D:/Unity/2021.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity/2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56996
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56208
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001745 seconds.
+Registered in 0.003100 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 86.04 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 110.97 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.644 seconds
+- Completed reload, in  0.880 seconds
 Domain Reload Profiling:
-	ReloadAssembly (645ms)
-		BeginReloadAssembly (85ms)
+	ReloadAssembly (881ms)
+		BeginReloadAssembly (80ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (455ms)
-			LoadAssemblies (85ms)
+		EndReloadAssembly (641ms)
+			LoadAssemblies (79ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (105ms)
+			SetupTypeCache (196ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (260ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (309ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (86ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (111ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (118ms)
+				ProcessInitializeOnLoadAttributes (140ms)
 				ProcessInitializeOnLoadMethodAttributes (45ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -101,37 +101,37 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005167 seconds.
+Registered in 0.004490 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Github\CashierSim\CashierSim\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Github\CashierSim\CashierSim\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.995 seconds
+- Completed reload, in  1.177 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1217ms)
-		BeginReloadAssembly (331ms)
+	ReloadAssembly (1178ms)
+		BeginReloadAssembly (123ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (781ms)
-			LoadAssemblies (89ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (936ms)
+			LoadAssemblies (104ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (275ms)
+			SetupTypeCache (368ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (338ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (375ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (75ms)
-				ProcessInitializeOnLoadAttributes (229ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (247ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -139,13 +139,13 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 27 unused Assets / (111.7 KB). Loaded Objects now: 3856.
 Memory consumption went from 119.0 MB to 118.9 MB.
-Total: 5.075400 ms (FindLiveObjects: 0.285300 ms CreateObjectMapping: 0.245900 ms MarkObjects: 4.423500 ms  DeleteObjects: 0.119800 ms)
+Total: 3.798400 ms (FindLiveObjects: 0.632500 ms CreateObjectMapping: 0.531500 ms MarkObjects: 2.474600 ms  DeleteObjects: 0.141900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -159,13 +159,85 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 13599.725404 seconds.
-  path: Assets/Core/Prefab/barre de chocolat.prefab
-  artifactKey: Guid(c1f0f94e81479684fb96cc4186802600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Core/Prefab/barre de chocolat.prefab using Guid(c1f0f94e81479684fb96cc4186802600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccdfba15cc86582d4b5cb81c87c19489') in 0.118264 seconds 
+  Time since last request: 13882.454883 seconds.
+  path: Assets/Core/Model/sandwich.fbx
+  artifactKey: Guid(1c8d19485ad7be94c86d89218277d0d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Core/Model/sandwich.fbx using Guid(1c8d19485ad7be94c86d89218277d0d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b280da590fd12b0c512e0790c03c960c') in 0.182485 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 86.830914 seconds.
-  path: Assets/Core/Prefab/barre de chocolat.prefab
-  artifactKey: Guid(c1f0f94e81479684fb96cc4186802600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Core/Prefab/barre de chocolat.prefab using Guid(c1f0f94e81479684fb96cc4186802600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00340b8f2014da958e47bd9b1dc9dbd5') in 0.031791 seconds 
+  Time since last request: 0.000038 seconds.
+  path: Assets/Core/Model/proto caisse et aliment.fbx
+  artifactKey: Guid(d918741671d759543b622539ee65bf6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Core/Model/proto caisse et aliment.fbx using Guid(d918741671d759543b622539ee65bf6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7145349f27e108f58a88c7dcd76ce5f8') in 0.228296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Core/Model/Box_Egg_Test.fbx
+  artifactKey: Guid(87be96d6cdd143641bead7fc70ac707e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Core/Model/Box_Egg_Test.fbx using Guid(87be96d6cdd143641bead7fc70ac707e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c319e0a89080806bec992f24fa7d63b2') in 0.016606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.639700 seconds.
+  path: Assets/Core/Model/pomme.fbx
+  artifactKey: Guid(46827b6be7183134daeedafe6eaedafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Core/Model/pomme.fbx using Guid(46827b6be7183134daeedafe6eaedafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '163b427053c1df3ab4e5d20304406319') in 0.024297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.113901 seconds.
+  path: Assets/Core/Model/pomme 1.fbx
+  artifactKey: Guid(ff27965a877a8e149bba738da68ddb8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Core/Model/pomme 1.fbx using Guid(ff27965a877a8e149bba738da68ddb8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e32b14c76053021f8b69ab8f092e260a') in 0.031703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 75.340613 seconds.
+  path: Assets/Core/Materials/Barre.mat
+  artifactKey: Guid(6cda9b4635e6eac46aeb0e88367a09d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Core/Materials/Barre.mat using Guid(6cda9b4635e6eac46aeb0e88367a09d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5460d71b7f08c3a2a919382ce811bbb4') in 0.031367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Core/Materials/ST.mat
+  artifactKey: Guid(705533026f68f50499eec3ee15c69002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Core/Materials/ST.mat using Guid(705533026f68f50499eec3ee15c69002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc88353a4adad904e9424bc02283748') in 0.047595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Core/Materials/Sandwich.mat
+  artifactKey: Guid(7e71726c436fc1643a85e2f695491ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Core/Materials/Sandwich.mat using Guid(7e71726c436fc1643a85e2f695491ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c64fab3d13bb67d31d2dc4037a366cf0') in 0.026107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Core/Materials/ClientBrun.mat
+  artifactKey: Guid(7ebba37365a49584cb792797edb01eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Core/Materials/ClientBrun.mat using Guid(7ebba37365a49584cb792797edb01eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66419ad27f3a143a8ee2ab9aeb0d19cc') in 0.134358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Core/Materials/EyeMaterial.mat
+  artifactKey: Guid(7ee144692c1da7046a1aeac591ca282a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Core/Materials/EyeMaterial.mat using Guid(7ee144692c1da7046a1aeac591ca282a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cbfdf277e0b30d789c9015c9a371524') in 0.023010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.835459 seconds.
+  path: Assets/Core/Materials/texture pomme.png
+  artifactKey: Guid(c8513fe877b0b44458a66219793150ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Core/Materials/texture pomme.png using Guid(c8513fe877b0b44458a66219793150ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1627f650c88784849afb148f64eceaf') in 0.025179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.721711 seconds.
+  path: Assets/Core/Materials/Pomme.mat
+  artifactKey: Guid(ebde82f9a1e000b48a8a3815d14cfd84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Core/Materials/Pomme.mat using Guid(ebde82f9a1e000b48a8a3815d14cfd84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12b9d1e4d82ccdd612a42ced22f91f9e') in 0.020642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 182.292540 seconds.
+  path: Assets/Core/Prefab/pomme 1.prefab
+  artifactKey: Guid(7ad21ff3d01913b44bd30d2e1721cd87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Core/Prefab/pomme 1.prefab using Guid(7ad21ff3d01913b44bd30d2e1721cd87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d40f394b19c7c4af1c581f1e850fa92') in 0.013446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.864163 seconds.
+  path: Assets/Core/Prefab/pomme 1.prefab
+  artifactKey: Guid(7ad21ff3d01913b44bd30d2e1721cd87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Core/Prefab/pomme 1.prefab using Guid(7ad21ff3d01913b44bd30d2e1721cd87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57d21f8f1c3abc09e3a5dc2d5011af15') in 0.016294 seconds 

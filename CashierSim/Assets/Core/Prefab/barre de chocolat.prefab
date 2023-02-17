@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7882924694044656478}
   - component: {fileID: 6542074029616975099}
   - component: {fileID: 9020405363537623089}
+  - component: {fileID: 3898717360469530771}
   m_Layer: 0
   m_Name: barre de chocolat
   m_TagString: Untagged
@@ -83,3 +84,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3898717360469530771
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7362847261297973732}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.41263735, y: 0.12467425, z: 0.10000003}
+  m_Center: {x: -0.0007464372, y: -0.00080027775, z: 0.050000012}

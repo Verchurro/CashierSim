@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5928608862644166087}
   - component: {fileID: 7343538983339315810}
   - component: {fileID: 4759612688697173672}
+  - component: {fileID: 8072418277710308199}
   m_Layer: 0
   m_Name: Box_Egg_Test
   m_TagString: Untagged
@@ -83,3 +84,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8072418277710308199
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6416915842680948605}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 60.340454, y: 86.163536, z: 31.871986}
+  m_Center: {x: 0, y: 0, z: 4.1371794}
