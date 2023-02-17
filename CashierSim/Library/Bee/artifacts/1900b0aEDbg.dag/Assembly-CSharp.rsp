@@ -352,6 +352,7 @@
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.UI.ref.dll"
+"Assets/Core/Scripts/Checkout.cs"
 "Assets/Core/Scripts/ClientNavMesh.cs"
 "Assets/Core/Scripts/DestroyZone.cs"
 "Assets/Core/Scripts/Items.cs"
