@@ -362,6 +362,7 @@
 "Assets/Core/Scripts/jo/PickupObject.cs"
 "Assets/Core/Scripts/Menu.cs"
 "Assets/Core/Scripts/Spawner.cs"
+"Assets/Core/Scripts/WaypointMover.cs"
 "Assets/Core/Scripts/Waypoints.cs"
 -langversion:9.0
 

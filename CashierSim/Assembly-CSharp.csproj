@@ -60,13 +60,14 @@
     <Compile Include="Assets\Core\Scripts\ClientNavMesh.cs" />
     <Compile Include="Assets\Core\Scripts\Waypoints.cs" />
     <Compile Include="Assets\Core\Scripts\Items.cs" />
+    <Compile Include="Assets\Core\Scripts\jo\CodeBarreScore.cs" />
     <Compile Include="Assets\Core\Scripts\Spawner.cs" />
     <Compile Include="Assets\Core\Scripts\DestroyZone.cs" />
-    <Compile Include="Assets\Core\Scripts\jo\FPScamera.cs" />
-    <Compile Include="Assets\Core\Scripts\jo\PickupObject.cs" />
-    <Compile Include="Assets\Core\Scripts\jo\MoveCamera.cs" />
-    <Compile Include="Assets\Core\Scripts\jo\CodeBarreScore.cs" />
     <Compile Include="Assets\Core\Scripts\jo\Conveyer.cs" />
+    <Compile Include="Assets\Core\Scripts\jo\MoveCamera.cs" />
+    <Compile Include="Assets\Core\Scripts\jo\PickupObject.cs" />
+    <Compile Include="Assets\Core\Scripts\jo\FPScamera.cs" />
+    <Compile Include="Assets\Core\Scripts\WaypointMover.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
