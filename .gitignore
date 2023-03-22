@@ -13,3 +13,5 @@ CashierSim/Library/Search/transactions.db
 CashierSim/Temp/PropertyDatabase_2066312223
 CashierSim/Temp/UnityLockfile
 CashierSim/UserSettings/Layouts/default-2021.dwlt
+*.json
+*.json
