@@ -8,6 +8,7 @@ public class Spawner : MonoBehaviour
     public float respawnTime = 1.0f;
     private Vector2 screenbounds;
     public bool isRandomized;
+    [SerializeField] int nb;
 
     private void Start()
     {
@@ -26,6 +27,7 @@ public class Spawner : MonoBehaviour
     {
         while (true)
         {
+            //interval between diff items
             yield return new WaitForSeconds(respawnTime);
             spawnItems();
         }

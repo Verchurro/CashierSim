@@ -8,9 +8,18 @@ public class Checkout : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Client")
-        {
-            Debug.Log("In");
+        { 
             spawner.SetActive(true);
+            Debug.Log("In");
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.tag == "Client")
+        {
+            spawner.SetActive(false);
+            Debug.Log("out");
         }
     }
 
