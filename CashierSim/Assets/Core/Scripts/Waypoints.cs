@@ -8,7 +8,7 @@ public class Waypoints : MonoBehaviour
     //needa add that if certain amount of items r spawned, leave
     [Range(0f, 4f)]
     [SerializeField] private float waypointSize = 1f;
-
+  
     [Header("Path Settings")]
     //Makes client loop
     [SerializeField] private bool canLoop = true;
@@ -48,7 +48,7 @@ Gizmos.DrawLine(transform.GetChild(transform.childCount - 1).position, transform
         {
             if (canLoop)
             {
- return transform.GetChild(0);
+              return transform.GetChild(0);
             }
             else
             {
@@ -58,3 +58,5 @@ Gizmos.DrawLine(transform.GetChild(transform.childCount - 1).position, transform
         }
     }
 }
+
+
