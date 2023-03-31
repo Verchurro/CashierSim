@@ -69,6 +69,12 @@
     <Compile Include="Assets\Core\Scripts\jo\MoveCamera.cs" />
     <Compile Include="Assets\Core\Scripts\jo\PickupObject.cs" />
     <Compile Include="Assets\Core\Scripts\jo\FPScamera.cs" />
+    <Compile Include="Assets\PathCreator\Examples\Scripts\PathSceneTool.cs" />
+    <Compile Include="Assets\PathCreator\Examples\Scripts\PathSpawner.cs" />
+    <Compile Include="Assets\PathCreator\Examples\Scripts\PathPlacer.cs" />
+    <Compile Include="Assets\PathCreator\Examples\Scripts\RoadMeshCreator.cs" />
+    <Compile Include="Assets\PathCreator\Examples\Scripts\PathFollower.cs" />
+    <Compile Include="Assets\PathCreator\Examples\Scripts\GeneratePathExample.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -815,6 +821,14 @@
     <ProjectReference Include="Unity.VisualScripting.State.csproj">
       <Project>{D7BD40AB-EFFC-F7C3-1481-DD3E1325DEBB}</Project>
       <Name>Unity.VisualScripting.State</Name>
+    </ProjectReference>
+    <ProjectReference Include="PathCreatorEditor.csproj">
+      <Project>{2F797041-29E0-74AD-C7DA-91AB705FC23B}</Project>
+      <Name>PathCreatorEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="PathCreator.csproj">
+      <Project>{5A4047F7-2B3E-48B5-5CCB-7EC3D2FBEB78}</Project>
+      <Name>PathCreator</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

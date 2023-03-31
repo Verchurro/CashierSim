@@ -10,7 +10,8 @@ public class WaypointMover : MonoBehaviour
     [SerializeField] private float distanceThreshold = 0.1f;
     [SerializeField] private float rotateSpeed = 4f;
     [SerializeField]Transform stoppingPoint;
-    bool canMove = true;
+    [SerializeField] Spawner spawner;
+    public bool canMove = true;
 
     //the current waypoint target that the object is moving to
     private Transform currentWaypoint;
@@ -58,7 +59,6 @@ public class WaypointMover : MonoBehaviour
     public void ExitStore()
     {
         canMove= true;
-
-        stoppingPoint= null;    
+        stoppingPoint= null;
     }
 }

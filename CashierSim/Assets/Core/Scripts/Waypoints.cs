@@ -28,12 +28,12 @@ public class Waypoints : MonoBehaviour
         //if path is set to loop, draw a line between first and last waypoint
         if (canLoop)
         {
-Gizmos.DrawLine(transform.GetChild(transform.childCount - 1).position, transform.GetChild(0).position);
+            Gizmos.DrawLine(transform.GetChild(transform.childCount - 1).position, transform.GetChild(0).position);
         }
         
     }
 
-    // Willget the correct next waypoint based on the direction client is currently traveling
+    // Will get the correct next waypoint based on the direction client is currently traveling
     public Transform GetNextWaypoint(Transform currentWaypoint)
     {
        if (currentWaypoint == null)

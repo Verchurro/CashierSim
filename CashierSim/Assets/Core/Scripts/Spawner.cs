@@ -7,22 +7,35 @@ public class Spawner : MonoBehaviour
     //call exitstore function when randomMax = 10 here. donc if randomMax is reached, exitstore = true
 
     public GameObject[] itemsToSpawn;
-    public float respawnTime = 1.0f;
+    public float respawnTime = 10f;
     private Vector2 screenbounds;
     public bool isRandomized;
-    [SerializeField] int randomMin = 5, randomMax = 10;
+    [SerializeField] public float minSpawnTime = 1;
+    public int numberObj = 0;
+    [SerializeField] int randomMin, randomMax ;
+    //[SerializeField] WaypointMover Exit;
 
     private void Start()
     {
         screenbounds = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, Camera.main.transform.position.z));
         StartCoroutine(itemWave());
     }
-    private void spawnItems()
+    public void spawnItems()
     {
         int randomIndex = Random.Range(randomMin, randomMax);
+      
+        if(respawnTime > minSpawnTime)
+        {
+            respawnTime--;
+        }
 
-        Instantiate(itemsToSpawn[randomIndex]);
-        Vector3 spawnPosition = new Vector3(screenbounds.x * 0, 5, 0);
+        if (numberObj < 15)
+        {
+            Instantiate(itemsToSpawn[randomIndex]);
+            Vector3 spawnPosition = new Vector3(screenbounds.x * 0, 5, 0);
+            numberObj++;
+        }
+
     }
 
     IEnumerator itemWave()
@@ -33,6 +46,11 @@ public class Spawner : MonoBehaviour
             yield return new WaitForSeconds(respawnTime);
             spawnItems();
         }
-
     }
+
+    private void Update()
+    {
+        
+    }
+
 }

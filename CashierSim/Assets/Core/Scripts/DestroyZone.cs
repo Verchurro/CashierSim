@@ -5,13 +5,13 @@ using UnityEngine;
 public class DestroyZone : MonoBehaviour
 {
 
-    [SerializeField] private GameObject cube;
-
-
     private void OnTriggerEnter(Collider other)
     {
-        Destroy(other.gameObject, 3);
-        Debug.Log("collided");
-
+        if (other.tag == "Produits")
+        {
+            Destroy(other.gameObject);
+            Debug.Log("collided");
+        }
     }
 }
+        //to make it spawn stuff again write numbobj--

@@ -326,6 +326,8 @@
 -r:"C:/Users/berry/OneDrive/Documents/Unity/2021.3.9f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll"
 -r:"C:/Users/berry/OneDrive/Documents/Unity/2021.3.9f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
 -r:"C:/Users/berry/OneDrive/Documents/Unity/2021.3.9f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
+-r:"Library/Bee/artifacts/1900b0aEDbg.dag/PathCreator.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aEDbg.dag/PathCreatorEditor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.EditorCoroutines.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.PlasticSCM.Editor.ref.dll"
@@ -365,6 +367,12 @@
 "Assets/Core/Scripts/Spawner.cs"
 "Assets/Core/Scripts/WaypointMover.cs"
 "Assets/Core/Scripts/Waypoints.cs"
+"Assets/PathCreator/Examples/Scripts/GeneratePathExample.cs"
+"Assets/PathCreator/Examples/Scripts/PathFollower.cs"
+"Assets/PathCreator/Examples/Scripts/PathPlacer.cs"
+"Assets/PathCreator/Examples/Scripts/PathSceneTool.cs"
+"Assets/PathCreator/Examples/Scripts/PathSpawner.cs"
+"Assets/PathCreator/Examples/Scripts/RoadMeshCreator.cs"
 -langversion:9.0
 
 /deterministic
