@@ -803,6 +803,10 @@
       <Project>{F28D127C-392C-8E59-3429-788EE360195D}</Project>
       <Name>Unity.Rider.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="PathCreator.csproj">
+      <Project>{5A4047F7-2B3E-48B5-5CCB-7EC3D2FBEB78}</Project>
+      <Name>PathCreator</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.csproj">
       <Project>{A1E920F1-4F56-C36A-CD78-032DA0189B39}</Project>
       <Name>Unity.Services.Core</Name>
@@ -814,6 +818,10 @@
     <ProjectReference Include="Unity.EditorCoroutines.Editor.csproj">
       <Project>{5B32DA14-7DEB-9E08-7559-9E889B3D131A}</Project>
       <Name>Unity.EditorCoroutines.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="PathCreatorEditor.csproj">
+      <Project>{2F797041-29E0-74AD-C7DA-91AB705FC23B}</Project>
+      <Name>PathCreatorEditor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Analytics.csproj">
       <Project>{BA04B09B-8ECD-5C6F-1723-8992EA099FA0}</Project>
@@ -838,14 +846,6 @@
     <ProjectReference Include="Unity.VisualScripting.State.csproj">
       <Project>{D7BD40AB-EFFC-F7C3-1481-DD3E1325DEBB}</Project>
       <Name>Unity.VisualScripting.State</Name>
-    </ProjectReference>
-    <ProjectReference Include="PathCreatorEditor.csproj">
-      <Project>{2F797041-29E0-74AD-C7DA-91AB705FC23B}</Project>
-      <Name>PathCreatorEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="PathCreator.csproj">
-      <Project>{5A4047F7-2B3E-48B5-5CCB-7EC3D2FBEB78}</Project>
-      <Name>PathCreator</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
