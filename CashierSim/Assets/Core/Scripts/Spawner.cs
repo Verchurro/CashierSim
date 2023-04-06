@@ -12,8 +12,6 @@ public class Spawner : MonoBehaviour
     public bool isRandomized;
     [SerializeField] public float minSpawnTime = 1;
     public int numberObj = 0;
-    [SerializeField] int randomMin, randomMax ;
-    //[SerializeField] WaypointMover Exit;
 
     private void Start()
     {
@@ -22,7 +20,7 @@ public class Spawner : MonoBehaviour
     }
     public void spawnItems()
     {
-        int randomIndex = Random.Range(randomMin, randomMax);
+        int randomIndex = Random.Range(0, itemsToSpawn.Length);
       
         if(respawnTime > minSpawnTime)
         {
